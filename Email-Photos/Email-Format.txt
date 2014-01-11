@@ -1,0 +1,6 @@
+Hi {client},
+
+See the attachment. We hope you are happy with your order!
+
+Thanks,
+{business}

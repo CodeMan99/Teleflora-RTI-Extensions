@@ -1,0 +1,5 @@
+rti_user: rti
+rti_passwd: itr
+gmail_user: example@gmail.com
+gmail_passwd: elpmaxe
+business: Example Business Name
