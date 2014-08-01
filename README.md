@@ -1,3 +1,8 @@
+#Project Indefinitely Halted#
+
+This project has no active developement as there are no plans
+to put it into use.
+
 Email-Photos:
 	Extension to automate sending order photos
 
