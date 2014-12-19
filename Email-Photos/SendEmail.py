@@ -72,16 +72,8 @@ def main(*args):
                 )
             )
 
-    with SMTP("smtp.gmail.com", 587) as gmail:
-        gmail.ehlo()
-        gmail.starttls()
-        gmail.ehlo()
-        gmail.login(data["gmail_user"], data["gmail_passwd"])
-        gmail.sendmail(
-            data["gmail_user"],
-            data["client_email"],
-            message.as_string()
-        )
+    with open("result.txt", "w") as fout:
+        fout.write(message.as_string())
 
     return 0
 
